@@ -138,6 +138,8 @@ ARG VERSION
 LABEL maintainer="DevDotNet.Org <anton@devdotnet.org>"
 LABEL build_version="Image version: Suricata ${VERSION}, nDPI 4.14"
 LABEL org.opencontainers.image.source="https://github.com/devdotnetorg/docker-suricata"
+LABEL org.opencontainers.image.description="Suricata ${VERSION}, nDPI 4.14"
+LABEL org.opencontainers.image.licenses=MIT
 
 RUN \
         dnf -y update && \
